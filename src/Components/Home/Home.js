@@ -1,7 +1,11 @@
 import React from 'react';
+import useFoods from '../../Hooks/useFoods';
 import './Home.css'
 
 const Home = () => {
+
+    const [food, setFood] = useFoods()
+    
     return (
         <div>
             <div className='bannerBox'>
