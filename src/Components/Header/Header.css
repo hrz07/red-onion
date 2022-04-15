@@ -1,18 +1,38 @@
 .header-container{
     height: 50px;
-    background: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     position: sticky;
     top: 0;
+    box-shadow: 1px 6px 12px -12px rgba(8,7,7,0.75);
+    -webkit-box-shadow: 1px 6px 12px -12px rgba(8,7,7,0.75);
+    -moz-box-shadow: 1px 6px 12px -12px rgba(8,7,7,0.75);
 }
 
 .header-container img{
     width: 150px;
 }
 .cart{
-    font-size: 25px;
+    font-size: 24px;
     margin-right: 20px;
+    color: rgb(55, 54, 54);
+}
+.loginBox{
+    display: flex;
+    align-items: center;
+}
+.loginBox button{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginBox button:hover{
+    background:rgb(235, 3, 3);
 }

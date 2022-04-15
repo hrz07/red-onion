@@ -9,7 +9,7 @@ const Header = () => {
             <div>
                 <img src={logo} alt="" />
             </div>
-            <div>
+            <div className='loginBox'>
                 <BsCart3 className='cart'/>
                 <button>Login</button>
             </div>
