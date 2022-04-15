@@ -6,9 +6,9 @@
     padding: 20px;
     position: sticky;
     top: 0;
-    box-shadow: 1px 6px 12px -12px rgba(8,7,7,0.75);
-    -webkit-box-shadow: 1px 6px 12px -12px rgba(8,7,7,0.75);
-    -moz-box-shadow: 1px 6px 12px -12px rgba(8,7,7,0.75);
+    box-shadow: 2px 4px 7px 3px rgba(8,7,7,0.71);
+    -webkit-box-shadow: 2px 4px 7px 3px rgba(8,7,7,0.71);
+    -moz-box-shadow: 2px 4px 7px 3px rgba(8,7,7,0.71);
 }
 
 .header-container img{
