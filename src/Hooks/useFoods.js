@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const useFoods = () => {
     const [food, setFood] = useState([])
     useEffect(() => {
-        fetch('foods.json')
+        fetch('/foods.json')
             .then(res => res.json())
         .then(data=> setFood(data))
     }, [])

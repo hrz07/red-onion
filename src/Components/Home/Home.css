@@ -9,6 +9,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
 }
 .bannerBox h1{
     color: rgb(46, 45, 45);
@@ -32,4 +34,19 @@
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+}
+.food-options{
+    width: 100%;
+    text-align: center;
+}
+.food-options a{
+    text-decoration: none;
+    margin: 0 20px;
+    color:rgb(45, 44, 44);
+    font-size: 20px;
+    font-weight: bold;
+}
+.food-options .active{
+    border-bottom: 5px solid red;
+    padding-bottom: 4px;
 }

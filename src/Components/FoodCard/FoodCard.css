@@ -1,0 +1,41 @@
+.foodCardContainer img{
+    width: 300px;
+}
+.foodCardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background: rgb(243, 241, 241);
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.foodCardContainer h1{
+    font-weight: bold;
+    margin: 5px;
+}
+.foodCardContainer h3{
+    margin-bottom: 5px;
+    color: rgb(45, 44, 44);
+}
+.detailsBtn{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.detailsBtn:hover{
+    background:rgb(235, 3, 3);
+}
+.foodCardContainer:hover{
+    box-shadow: 3px 9px 15px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 9px 15px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 9px 15px -6px rgba(0,0,0,0.75);
+    transform: scale(1.1);
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink, Outlet } from 'react-router-dom';
 import useFoods from '../../Hooks/useFoods';
 import './Home.css'
 
@@ -15,6 +16,13 @@ const Home = () => {
                     <button>Search</button>
                 </div>
             </div>
+
+            <div className='food-options'>
+                <NavLink to="/home/breakfast">Breakfast</NavLink>
+                <NavLink to="/">Lunch</NavLink>
+                <NavLink to="/home/dinner">Dinner</NavLink>
+            </div>
+            <Outlet/>
         </div>
     );
 }
