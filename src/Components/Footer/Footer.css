@@ -1,0 +1,17 @@
+.footerContainer{
+    background: black;
+    height: 200px;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    justify-items: center;
+}
+.footerContainer img{
+    width: 180px
+}
+.footerLogoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

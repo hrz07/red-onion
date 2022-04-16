@@ -50,6 +50,24 @@
     border-bottom: 5px solid red;
     padding-bottom: 4px;
 }
-.out{
-    transition:0.2s ease;
+
+.checkoutBtn{
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto;
+   text-align: center;
+   display: block;
+}
+
+.checkoutBtn:hover{
+    background: rgb(194, 2, 2);
+}
+.outleBox{
+    min-height: 80vh;
 }

@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import Breakfast from './Components/Breakfast/Breakfast';
 import Lunch from './Components/Lunch/Lunch';
 import Dinner from './Components/Dinner/Dinner';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/dinner' element={<Dinner></Dinner>} />
         </Route>  
       </Routes>
+      <Footer/>
     </div>
   );
 }

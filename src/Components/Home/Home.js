@@ -22,9 +22,14 @@ const Home = () => {
                 <NavLink to="/">Lunch</NavLink>
                 <NavLink to="/dinner">Dinner</NavLink>
             </div>
-            
 
-                <Outlet className='out' />
+            <div className='outleBox'>
+                {
+                    <Outlet />
+                }
+            </div>
+            
+            <button className='checkoutBtn'>Checkout Your Food</button>
             
         </div>
     );

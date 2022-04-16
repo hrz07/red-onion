@@ -1,0 +1,7 @@
+.dinnerFoodContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin-top: 40px;
+    padding: 60px;
+}
