@@ -18,11 +18,14 @@ const Home = () => {
             </div>
 
             <div className='food-options'>
-                <NavLink to="/home/breakfast">Breakfast</NavLink>
+                <NavLink to="/breakfast">Breakfast</NavLink>
                 <NavLink to="/">Lunch</NavLink>
-                <NavLink to="/home/dinner">Dinner</NavLink>
+                <NavLink to="/dinner">Dinner</NavLink>
             </div>
-            <Outlet/>
+            
+
+                <Outlet className='out' />
+            
         </div>
     );
 }

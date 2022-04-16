@@ -13,9 +13,9 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>} >
-          <Route path='/home/breakfast' element={<Breakfast></Breakfast>} />
+          <Route path='/breakfast' element={<Breakfast></Breakfast>} />
           <Route path='/' element={<Lunch></Lunch>} />
-          <Route path='/home/dinner' element={<Dinner></Dinner>} />
+          <Route path='/dinner' element={<Dinner></Dinner>} />
         </Route>  
       </Routes>
     </div>

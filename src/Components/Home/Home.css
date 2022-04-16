@@ -50,3 +50,6 @@
     border-bottom: 5px solid red;
     padding-bottom: 4px;
 }
+.out{
+    transition:0.2s ease;
+}
